@@ -1,3 +1,12 @@
+
+# Template for [PolymerX CLI](https://github.com/PolymerX/polymerx-cli)
+
+Install using the CLI
+
+```bash
+$ polymerx create default dest-folder
+```
+
 <img src="https://i.imgur.com/wWjqhW6.jpg" width="530">
 
 [![GitHub release](https://img.shields.io/github/release/PolymerX/polymer-skeleton.svg?style=flat-square)](https://github.com/PolymerX/polymer-skeleton)
