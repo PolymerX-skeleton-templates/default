@@ -39,7 +39,7 @@ export default class SkApp extends PolymerElement {
   }
 
   startTour() {
-    window.location.replace('https://github.com/PolymerX/polymer-skeleton');
+    window.location = 'https://github.com/PolymerX/polymer-skeleton';
   }
 
   reload() {
