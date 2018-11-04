@@ -31,6 +31,6 @@ export default () => {
 
       registration.addEventListener('updatefound', () => trackInstalling(registration.installing));
     }).catch(error => {
-      console.error('Error during service worker registration:', err);
+      console.error('Error during service worker registration:', error);
     });
 };
