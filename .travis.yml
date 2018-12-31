@@ -1,12 +1,13 @@
 sudo: required
 language: node_js
 node_js:
-  - '9'
+  - 'node'
   - '8'
 
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
+  - yarn add --dev polymerx-cli
 
 script:
   - yarn test:travis
